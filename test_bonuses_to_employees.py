@@ -47,8 +47,8 @@ class BonusTest(unittest.TestCase):
 		self.driver.maximize_window()
 		self.driver.get('http://suok.ezeev.ru/llc/#')
 		#Login
-		login = 'fezeev@gmail.com'
-		password = '123456'
+		login = '****@gmail.com'
+		password = '****'
 		# Вводим данные для входа
 		self.driver.find_element_by_id('employee_email').send_keys(login)
 		self.driver.find_element_by_id('employee_password').send_keys(password)
