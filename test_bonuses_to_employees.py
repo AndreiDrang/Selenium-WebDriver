@@ -121,7 +121,6 @@ class BonusTest(unittest.TestCase):
 		#Проверяем сохранилась ли преми и не появилось ли ошибок
 		self.assertNotEqual(self.driver.title, u'Расчет премии')
 
-		time.sleep(1)
 		# Извлечение значения строки с премией
 		SUMM_AMOUNT = self.driver.find_element(By.ID, self.SUMM_OF_BONUS).get_attribute('value')
 		# Извлечение целого значения
