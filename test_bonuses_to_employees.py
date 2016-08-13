@@ -15,7 +15,7 @@ class BonusTest(unittest.TestCase):
 	#Кнопка "Далее"
 	NEXT = '//*[@id="btn-submit-1"]'
 	#Последняя созданная премия
-	BONUS = '//div[2]/table/tbody/tr[1]'
+	BONUS = '//div[2]/table/tbody/tr[1]/td/a'
 	#Сумма начёта
 	SUMM_OF_BONUS = 'additional_amount'
 	#Комментарий к премии
